@@ -1,0 +1,28 @@
+.tager{
+  margin-top: 27%;
+  margin-bottom: 27%;
+}
+.flexy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge {
+  background-color: #6bb9f0;
+  padding: .5rem .5rem;
+  margin: .3rem;
+  border-radius: 5px;
+  color: #eee;
+  cursor: pointer;
+  -moz-user-select: none;
+  user-select: none;
+  //box-shadow: 0 5px 0 0 #3da3eb;
+  transition: .1s;
+}
+.badge p{margin:0;}
+.badge:active {
+  transform: translatey(4px);
+  box-shadow: 0 1px 0 0 #3da3eb;
+}

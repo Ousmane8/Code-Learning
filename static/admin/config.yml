@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: Ousmane8/Blog-Code-Learning
+
+media_folder: static/assets
+public_folder: /assets
+
+collections:
+  - name: blog
+    label: Blog
+    folder: blog
+    create: true
+    fields:
+      - { name: title, required: true, label: Titre}
+      - { name: date, required: true, label: Date}
+      - { name: author, required: true, label: Author}
+      - { name: tags, required: true, label: Tags}
+      - { name: description, required: true, label: Description, widget: markdown}
+      - { name: image, required: true, label: Image, widget: image}
+      - { name: sku, required: false, label: Sku}
+      - { name: path, required: false, label: Path}
